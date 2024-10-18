@@ -18,86 +18,32 @@
     <div class="weather-app">
         <header>
             <form class="search-form" id="search-form">
-                <input type="search" placeholder="Enter the city.." required class="search-form-input"
-                    id="search-form-input">
-                <input type="submit" value="Search" class="search-form-button">
+                <input type="search" placeholder="Enter a city.." required id="search-form-input"
+                    class="search-form-input" />
+                <input type="submit" value="Search" class="search-form-button" />
             </form>
         </header>
         <main>
             <div class="weather-app-data">
                 <div>
-                    <h1 class="weather-app-city" id="weather-app-city"></h1>
+                    <h1 class="weather-app-city" id="city"></h1>
                     <p class="weather-app-details">
-                        <span id="time"></span>,<span id="description"></span>
-                        <br>
-                        Humidity: <strong id="humidity"></strong> , Wind: <strong id="wind-speed"></strong>
+                        <span id="time"></span>,
+                        <span id="description"></span>
+                        <br />
+                        Humidity: <strong id="humidity"></strong>, Wind:
+                        <strong id="wind-speed"></strong>
                     </p>
                 </div>
                 <div class="weather-app-temperature-container">
                     <div id="icon"></div>
-                </div>
-                <div class="weather-app-temperature" id="temperature"></div>
-                <div class="weather-app-unit">°C</div>
-            </div>
-
-            <div class="weather-forcast">
-                <div class="weather-forcast-day">
-                    <div class="weather-forcast-date">Tue</div>
-                    <div class="weather-forcast-icon">🌤</div>
-                    <div class="weather-forcast-temperatures">
-                        <div class="weather-forcast-temperature">
-                            <strong>15°</strong>
-                        </div>
-                        <div class="weather-forcast-temperature">9°</div>
-                    </div>
-
-                </div>
-                <div class="weather-forcast-day">
-                    <div class="weather-forcast-date">Wed</div>
-                    <div class="weather-forcast-icon">🌤</div>
-                    <div class="weather-forcast-temperatures">
-                        <div class="weather-forcast-temperature">
-                            <strong>15°</strong>
-                        </div>
-                        <div class="weather-forcast-temperature">9°</div>
-                    </div>
-
-                </div>
-                <div class="weather-forcast-day">
-                    <div class="weather-forcast-date">Thu</div>
-                    <div class="weather-forcast-icon">🌤</div>
-                    <div class="weather-forcast-temperatures">
-                        <div class="weather-forcast-temperature">
-                            <strong>15°</strong>
-                        </div>
-                        <div class="weather-forcast-temperature">9°</div>
-                    </div>
-
-                </div>
-                <div class="weather-forcast-day">
-                    <div class="weather-forcast-date">Fri</div>
-                    <div class="weather-forcast-icon">🌤</div>
-                    <div class="weather-forcast-temperatures">
-                        <div class="weather-forcast-temperature">
-                            <strong>15°</strong>
-                        </div>
-                        <div class="weather-forcast-temperature">9°</div>
-                    </div>
-
-                </div>
-                <div class="weather-forcast-day">
-                    <div class="weather-forcast-date">Sat</div>
-                    <div class="weather-forcast-icon">🌤</div>
-                    <div class="weather-forcast-temperatures">
-                        <div class="weather-forcast-temperature">
-                            <strong>15°</strong>
-                        </div>
-                        <div class="weather-forcast-temperature">9°</div>
-                    </div>
-
+                    <div class="weather-app-temperature" id="temperature"></div>
+                    <div class="weather-app-unit">°C</div>
                 </div>
             </div>
+            <div class="weather-forecast" id="forecast"></div>
         </main>
+
 
 
         <footer>
